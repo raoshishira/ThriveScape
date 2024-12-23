@@ -32,26 +32,28 @@ module.exports = {
         black: "#212b36",
         "dark-700": "#090e34b3",
         dark: {
-          DEFAULT: "#111928",
-          2: "#1F2A37",
-          3: "#374151",
-          4: "#4B5563",
-          5: "#6B7280",
-          6: "#9CA3AF",
-          7: "#D1D5DB",
-          8: "#E5E7EB",
+          DEFAULT: "#111928", 
+          2: "#1F2A37", 
+          3: "#374151", 
+          4: "#4B5563", 
+          5: "#6B7280", 
+          6: "#9CA3AF", 
+          7: "#D1D5DB", 
+          8: "#E5E7EB", 
         },
-        primary: "#3758F9",
-        "blue-dark": "#1B44C8",
-        secondary: "#13C296",
-        "body-color": "#637381",
+        primary: "#79B17F", // Sustainable green for primary actions
+        secondary: "#ED7070", // Coral for secondary actions
+        "body-color": "#637381", 
         "body-secondary": "#8899A8",
         warning: "#FBBF24",
         stroke: "#DFE4EA",
-        "gray-1": "#F9FAFB",
-        "gray-2": "#F3F4F6",
-        "gray-7": "#CED4DA",
-      },
+        "gray-1": "#F9FAFB", // Light gray for backgrounds
+        "gray-2": "#F3F4F6", // Soft background for containers
+        "gray-7": "#CED4DA", 
+        "muted-green": "#A3C9A1", // Lighter green for hover states and accents
+        "light-beige": "#F1E8D6", // Warm beige background for a soft contrast
+        "blue-dark": "#1B44C8",
+      },      
       boxShadow: {
         input: "0px 7px 20px rgba(0, 0, 0, 0.03)",
         form: "0px 1px 55px -11px rgba(0, 0, 0, 0.01)",
